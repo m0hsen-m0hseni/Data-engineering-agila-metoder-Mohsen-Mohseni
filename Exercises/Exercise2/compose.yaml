@@ -1,0 +1,12 @@
+services:
+  dashboard:
+    image: pokemon-dashboard
+    ports:
+      - "8050:8050"
+    volumes:
+      - .:/exercise2
+      - pokemon_data:/exercise2/saved_data
+    command: python /exercise2/scripts/poke_dashboard.py
+
+volumes:
+  pokemon_data:
