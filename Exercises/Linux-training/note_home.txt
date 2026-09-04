@@ -1,0 +1,2 @@
+hello from note_home
+current_directory is: /mnt/c/Users/mohse/Desktop/Data-engineering-agila-metoder-Mohsen-Mohseni/Exercises/Linux-training
